@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFF;
+    font-family: Effra;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.section-title{
+    margin-top: 15px;
+    font-size: 46px;
+    font-weight: 100;
+}
+
+.section-title-bold{
+    font-size: 59px;
+    line-height: 1;
+}
+
+.section-text {
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.title-line {
+    width: 220px;
+    height: 2px;
+    background-color: #F71963;
+    border: 0;
+}
+
+header {
+    width: 100%;
+    height: 85px;
+    background-color: #0C0C26;
+    padding: 0 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 63px;
+}
+main {
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #0C0C26;
+}
+.container {
+    width: min(1250px, 85%);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-container div#left {
+    width: 45%;
+}
+
+.main-container div#left h1 {
+    font-size: clamp(25px, 60px, 75px);
+    font-weight: bold;
+}
+
+.main-container div#left h2 {
+    font-size: 41px;
+    font-weight: 100;
+}
+
+.main-container div#left button {
+    padding: 10px 30px;
+    background: #EF7B5E;
+    color: #FFF;
+    font-size: bold;
+    border: 0;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.main-container div#right {
+    width: 55%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.main-container div#right img {
+    position: absolute;
+    width: 55vw;
+    height: clamp(40%, 80%, 105%);
+    margin-left: -16%;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+}
+
+section#vantagens {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.vantagens-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+/* .vantagens-container img {
+    position: absolute;
+    margin: 0 auto;
+} */
+
+#left-side {
+    width: 360px;
+}
+
+#left-side h4 {
+    color: #68478D;
+}
+
+#left-side hr {
+    margin-bottom: 15px;
+}
+
+#left-side p {
+    font-size: 20px;
+    color: #000;
+}
+
+.c {
+    display: flex;
+    align-items: flex-end;
+    width: 265px;
+    margin-top: 40px;
+}
+.c p {
+    font-size: 25px;
+    line-height: 1.2;
+    color: #000;
+    margin-left: 10px;
+}
+
+#right-side .card {
+    width: 225px;    
+    height: 260px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.card p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.card p strong {
+    font-size: 100px;
+}
+
+.green-color {
+    color: #5EBCA4 !important;
+}
+
+.purple-color {
+    color: #68478D;
+}
+
+.orange-color {
+    color: #EF7B5E;
+}
+
+
+
+.green {
+    background-color: #5EBCA4 !important;
+}
+
+.purple {
+    background-color: #68478D;
+}
+
+.orange {
+    background-color: #EF7B5E;
+}
+
+section#especialidades {
+    background-color: #68478D;
+    padding: 50px 0;
+}
+
+section#especialidades div#especialidades-title {
+
+    display: flex;
+}
+
+section#especialidades div#right-especialidades {
+    display: flex;
+}
+
+#right-especialidades img {
+    z-index: 99;
+    max-height: 600px;
+
+}
+
+.top-image {
+    margin-top: -35%;
+}
+
+.bottom-image {
+    margin-left: -350px;
+    margin-top: 8%;
+}
+
+#especialidades #left-especialidades {
+    width: 45%;
+}
+
+
+
+#left-especialidades hr {
+    width: 40%;
+    height: 2px;
+    background-color: #F71963;
+    border: 0;
+}
+
+#especialidades #right-especialidades {
+    width: 45%;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.wrapper .especialidade {
+    width: 275px;
+    margin-bottom: 40px;
+}
+
+.especialidade h5 {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.especialidade strong {
+    font-size: 28px;
+}
+
+.especialidade hr {
+    width: 150px;
+    height: 2px;
+    background-color: #F71963;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+
+section#clientes {
+    background-color: #5EBCA4;
+    color: #FFF;
+    padding: 30px 0;
+    padding-bottom: 100px;
+}
+
+section#clientes p {
+    max-width: 655px;
+}
+
+#clientes-imagem {
+    display: flex;
+    align-items: center;
+}
+
+#clientes-imagem i {
+    font-size: 40px;
+}
+
+.cliente-imagem {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.cliente-imagem img {
+    width: 80%;
+}
+
+.clientes-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.clientes-container img {
+    margin-right: 50px;
+}
+
+
+section.contato {
+    background-color: #FFF;
+    color: #000;
+}
+
+.contato h4 {
+    margin-top: 50px;
+}
+
+.contato p{
+    width: 40%;
+}
+
+.contato form {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+}
+
+.input-container {
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.input-container input, textarea {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #68478D;
+    margin-top: 5px;
+    outline: none;
+}
+
+.input-container textarea {
+    resize: none;
+    height: 150px;
+}
+
+.contato form button {
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    padding: 15px 60px;
+    background-color: #EF7B5E;
+    border: 0;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #68478D;
+    color: #FFF;
+    padding-bottom: 50px;
+}
+
+footer div#email-cadastro {
+    width: min(75%, 1100px);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+    color: #FFF;
+}
+#email-cadastro p{
+    flex: 1;
+    
+}
+#email-cadastro input{
+    flex: 2;
+    margin: 0 6px;
+    background: transparent;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    height: 100%;
+    color: #FFF;
+    padding: 0 20px;
+}
+#email-cadastro button{
+    flex: 1;
+    border: 2px solid #FFF;
+    background: #EF7B5E;
+    height: 100%;
+    color: #FFF;
+    border-radius: 20px;
+}
+
+footer div#footer {
+    border-top: 1px solid #FFF;
+    text-align: center;
+}
+
+div#footer h5 {
+    font-size: 35px;
+    margin-top: 80px;
+}
+
+div#footer div#links {
+    width: min(90%, 1100px);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+div#links a {
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+div#links a span {
+    margin-right: 5px
+}
+
+#footer-wrapper {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    text-align: left;
+    margin-top: 90px;
+}
+
+#footer-wrapper div#enderecos {
+    display: flex;
+}
+
+div#enderecos .endereco:first-child {
+    margin-right: 10px;
+}
+
+.content {
+    height: 80px;
+    padding-left: 5px;
+    border-left: 2px solid #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#icons {
+    display: flex;
+
+}
+
+div#icons i {
+    margin: 5px;
+    font-size: 20px;
+}
